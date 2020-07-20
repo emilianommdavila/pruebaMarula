@@ -1,120 +1,157 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(src/fondo.jpg);
-    background-size: cover;
-}
-
-.cabecera {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    width: 100%;
-}
-
-#imgLogo {
-    margin-left: 50px;
-}
-
-.menu {
-    align-self: center;
-}
-
-.menu ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-.menu ul li {
-    width: 150px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: #dae0e6; */
-    border-radius: 5px;
-}
-
-.menu ul li a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-}
-
-.menu ul li:hover {
-    background-color: rgb(169, 169, 169, 0.1);
-}
-
-.contenedor {
-    height: 450px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    background-color: rgb(0, 0, 0, 0.1);
-}
-
-.tarjeta {
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    width: 350px;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-}
-
-.tar0 {
-    background-image: url(src/desayuno1.jpg);
-}
-
-.tar1 {
-    background-image: url(src/americano.jpg);
-}
-
-.tar2 {
-    background-image: url(src/desayuno2.jpg);
-}
-
-.tar3 {
-    background-image: url(src/desayuno3.jpg);
-}
-
-.tarjeta:hover {
-    transform: scaleY(1.01);
-    /* transform: scaleX(1.05); */
-}
-
-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 90%;
-}
-
-.descripcion {
-    height: 305px;
-    width: 260px;
-    margin: 20px;
-    border-radius: 5px;
-    color: black;
-    text-align: center;
-    font-size: 20px;
-    background-color: rgba(255, 255, 255, .5);
-    align-self: center;
-}
-
-.imgProducto h2 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(255, 255, 255, .5);
-    color: black;
-}
+  body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url(src/fondo.jpg);
+      background-size: cover;
+      width: 100%;
+  }
+  
+  .cabecera {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      width: 100%;
+  }
+  
+  #imgLogo {
+      margin-left: 50px;
+  }
+  
+  .menu {
+      align-self: center;
+  }
+  
+  .menu ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      margin-right: 20px;
+  }
+  
+  .menu ul li {
+      width: 150px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* background-color: #dae0e6; */
+      border-radius: 5px;
+  }
+  
+  .menu ul li a {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-decoration: none;
+      color: black;
+      font-size: 30px;
+  }
+  
+  .menu ul li:hover {
+      background-color: rgb(169, 169, 169, 0.1);
+  }
+  
+  .contenedor {
+      height: 450px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background-color: rgb(0, 0, 0, 0.1);
+  }
+  
+  .tarjeta {
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      width: 300px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      margin: 10px 0px 10px 0px;
+  }
+  
+  .tar0 {
+      background-image: url(src/desayuno1.jpg);
+  }
+  
+  .tar1 {
+      background-image: url(src/americano.jpg);
+  }
+  
+  .tar2 {
+      background-image: url(src/desayuno2.jpg);
+  }
+  
+  .tar3 {
+      background-image: url(src/desayuno3.jpg);
+  }
+  
+  .tarjeta:hover {
+      transform: scaleY(1.01);
+      /* transform: scaleX(1.05); */
+  }
+  
+  section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 90%;
+  }
+  
+  .descripcion {
+      height: 305px;
+      width: 260px;
+      margin: 20px;
+      border-radius: 5px;
+      color: black;
+      text-align: center;
+      font-size: 20px;
+      background-color: rgba(255, 255, 255, .5);
+      align-self: center;
+  }
+  
+  .imgProducto h2 {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgba(255, 255, 255, .5);
+      color: black;
+  }
+  
+  @media (max-width: 500px) {
+      .contenedor {
+          height: 1750px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          margin-bottom: 20px;
+          border-radius: 5px;
+          background-color: rgb(0, 0, 0, 0.1);
+          align-items: center;
+      }
+      section {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-content: center;
+          width: 90%;
+      }
+      .menu ul {
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          margin-right: 20px;
+          vertical-align: auto;
+      }
+      #imgLogo {
+          margin-left: 0px;
+      }
+      body {
+          background: linear-gradient(to bottom, #ffefba 10%, #ffffff 30%);
+          background-size: cover;
+      }
+  }
