@@ -5,6 +5,7 @@
       /* background-image: url(src/fondo.jpg); */
       background-size: cover;
       width: 100%;
+      margin: 0px;
   }
   
   .cabecera {
@@ -103,11 +104,6 @@
       background-image: url(src/tortaAzul.jpeg);
   }
   
-  .tar2:hover {
-      transform: scaleY(1.01);
-      /* transform: scaleX(1.05); */
-  }
-  
   section {
       display: flex;
       flex-direction: row;
@@ -158,14 +154,14 @@
           margin: 0em;
       }
       .contenedor {
-          height: 1750px;
+          height: 1050px;
           width: 100%;
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
           margin-bottom: 20px;
           border-radius: 5px;
-          background-color: rgb(0, 0, 0, 0.1);
+          background-color: rgb(256, 256, 256, 0.5);
           align-items: center;
       }
       section {
@@ -183,7 +179,11 @@
           vertical-align: auto;
       }
       body {
-          background: linear-gradient(to bottom, #ffefba 10%, #ffffff 30%);
           background-size: cover;
+      }
+      .linkTarjeta0 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
       }
   }

@@ -2,6 +2,7 @@
     background-image: url(../src/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
+    margin: 0px;
 }
 
 .desayuno1 {
