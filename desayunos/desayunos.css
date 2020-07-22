@@ -9,6 +9,12 @@
     background-image: url(../src/WhatsApp\ Image\ 2020-07-20\ at\ 21.53.13.jpeg);
     margin-left: 60px;
     width: 400px;
+    /* transition: linear 0.1s; */
+}
+
+.desayuno1:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/desayuno3.jpg);
 }
 
 .seccion1 {
