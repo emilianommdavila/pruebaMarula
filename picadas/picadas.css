@@ -1,0 +1,24 @@
+.picadaClasica {
+    transition: linear 0.1s;
+    background-image: url(../src/Picadas/EnCaja/clasica1.jpeg);
+}
+
+.picadaClasica:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Picadas/EnCaja/clasica2.jpeg);
+}
+
+.picadaPremium {
+    transition: linear 0.1s;
+    background-image: url(../src/Picadas/EnCaja/premium1.jpeg);
+}
+
+.picadaPremium:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Picadas/EnCaja/premium2.jpeg);
+}
+
+.margen {
+    margin-left: 60px;
+    width: 400px;
+}
