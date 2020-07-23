@@ -1,20 +1,56 @@
 .bodyDesayunos {
-    background-image: url(../src/fondo.jpg);
+    background-image: url(../src/fondos/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
 }
 
-.desayuno1 {
-    background-image: url(../src/WhatsApp\ Image\ 2020-07-20\ at\ 21.53.13.jpeg);
+.margen {
     margin-left: 60px;
     width: 400px;
     /* transition: linear 0.1s; */
 }
 
-.desayuno1:hover {
+
+/* Fotos de desayunos */
+
+
+/* invernal */
+
+.fotoDesayunoInvernal {
     transition: linear 0.1s;
-    background-image: url(../src/desayuno3.jpg);
+    background-image: url(../src/Desayunos/Bandejas/Invernal/invernal.jpg);
+}
+
+.fotoDesayunoInvernal:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Invernal/Invernal2.jpg);
+}
+
+
+/* Clasico */
+
+.fotoDesayunoClasico {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/clasico/clasico1.jpg);
+}
+
+.fotoDesayunoClasico:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/clasico/clasico2.jpg);
+}
+
+
+/* Premium */
+
+.fotoDesayunoPremium {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Premium/Premium.jpg);
+}
+
+.fotoDesayunoPremium:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpg);
 }
 
 .seccion1 {
@@ -22,7 +58,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgb(256, 256, 256, 0.7);
     align-items: center;
     background-size: cover;
     background-position: center;
@@ -50,6 +86,7 @@
 #tituloDesayunos {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    color: white;
 }
 
 @media (max-width: 500px) {
@@ -59,7 +96,7 @@
         height: 600px;
         align-items: center;
     }
-    .desayuno1 {
+    .tarjeta {
         width: 90%;
         margin: 0em;
         margin-top: 1em;
