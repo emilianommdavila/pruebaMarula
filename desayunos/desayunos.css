@@ -53,6 +53,84 @@
     background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpg);
 }
 
+
+/* Matero */
+
+.fotoDesayunoMatero {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Matero/Matero1.jpg);
+}
+
+.fotoDesayunoMatero:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Matero/Matero2.jpg);
+}
+
+
+/* Americano */
+
+.fotoDesayunoAmericano {
+    transition: linear 0.1s;
+    background-image: url();
+}
+
+.fotoDesayunoAmericano:hover {
+    transition: linear 0.1s;
+    background-image: url();
+}
+
+
+/* Boca */
+
+.fotoDesayunoBoca {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Boca/Boca1.jpg);
+}
+
+.fotoDesayunoBoca:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Boca/Boca2.jpg);
+}
+
+
+/* River */
+
+.fotoDesayunoRiver {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/River/River1.jpg);
+}
+
+.fotoDesayunoRiver:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/River/river2.jpg);
+}
+
+
+/* 15 */
+
+.fotoDesayuno15 {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/15/15_1.jpg);
+}
+
+.fotoDesayuno15:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/15/15_2.jpg);
+}
+
+
+/* Infantil */
+
+.fotoDesayunoInfantil {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Infantil/infantil1.jpg);
+}
+
+.fotoDesayunoInfantil:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Infantil/infantil2.jpg);
+}
+
 .seccion1 {
     width: 70%;
     display: flex;

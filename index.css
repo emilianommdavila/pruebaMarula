@@ -169,6 +169,7 @@
           margin-top: 0em;
           position: fixed;
           margin-right: 0em;
+          height: 90px;
       }
       .contacto {
           display: flex;
