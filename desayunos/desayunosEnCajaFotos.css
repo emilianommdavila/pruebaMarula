@@ -132,7 +132,7 @@
     /* Premium */
     .fotoDesayunoPremiumCaja:active {
         transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Cajas/Premium/premium1.jpg);
+        background-image: url(../src/Desayunos/Cajas/Premium/premium2.jpg);
     }
     /* Matero */
     .fotoDesayunoMateroCaja:active {
@@ -157,7 +157,7 @@
     /* 15 */
     .fotoDesayuno15Caja:active {
         transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Cajas/15/15_2.jpg);
+        background-image: url(../src/Desayunos/Cajas/15/152.jpg);
     }
     /* Infantil */
     .fotoDesayunoInfantilCaja:active {
