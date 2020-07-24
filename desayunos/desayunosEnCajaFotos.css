@@ -44,12 +44,12 @@
 
 .fotoDesayunoMateroCaja {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Matero/Matero1.jpg);
+    background-image: url(../src/Desayunos/Cajas/Matero/matero1.jpg);
 }
 
 .fotoDesayunoMateroCaja:hover {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Matero/Matero2.jpg);
+    background-image: url(../src/Desayunos/Cajas/Matero/matero2.jpg);
 }
 
 
