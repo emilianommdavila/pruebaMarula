@@ -71,7 +71,11 @@
       font-family: Arial, Helvetica, sans-serif;
       text-align: center;
       color: white;
+<<<<<<< HEAD
       font-size: 20px;
+=======
+      font-style: initial;
+>>>>>>> 63063b8708cdc513ab438df5ca8ee1fc585dbc68
   }
   
   .contenedor {
