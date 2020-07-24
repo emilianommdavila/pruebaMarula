@@ -182,4 +182,8 @@
         margin: 0em;
         margin-top: 1em;
     }
+    .fotoDesayuno15:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/15/15_2.jpg);
+    }
 }
