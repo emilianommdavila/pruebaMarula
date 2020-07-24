@@ -182,8 +182,50 @@
         margin: 0em;
         margin-top: 1em;
     }
+    /* efectos responsive, el hover no anda en telefonos */
+    /* invernal */
+    .fotoDesayunoInvernal:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/Invernal/Invernal2.jpg);
+    }
+    /* Clasico */
+    .fotoDesayunoClasico:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/clasico/clasico2.jpg);
+    }
+    /* Premium */
+    .fotoDesayunoPremium:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpg);
+    }
+    /* Matero */
+    .fotoDesayunoMatero:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/Matero/Matero2.jpg);
+    }
+    /* Americano */
+    .fotoDesayunoAmericano:active {
+        transition: linear 0.1s;
+        background-image: url();
+    }
+    /* Boca */
+    .fotoDesayunoBoca:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/Boca/Boca2.jpg);
+    }
+    /* River */
+    .fotoDesayunoRiver:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/River/river2.jpg);
+    }
+    /* 15 */
     .fotoDesayuno15:active {
         transition: linear 0.1s;
         background-image: url(../src/Desayunos/Bandejas/15/15_2.jpg);
+    }
+    /* Infantil */
+    .fotoDesayunoInfantil:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/Infantil/infantil2.jpg);
     }
 }
