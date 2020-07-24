@@ -1,0 +1,16 @@
+        .cajas {
+            background-image: url(../src/fondos/cajas.jpeg);
+        }
+        
+        .bandejas {
+            background-image: url(../src/fondos/bandejas.jpeg);
+        }
+        
+        @media (max-width: 500px) {
+            .contenedor {
+                height: 900px;
+            }
+            .relleno {
+                height: 250px;
+            }
+        }
