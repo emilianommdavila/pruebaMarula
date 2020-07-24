@@ -10,7 +10,7 @@
 
 .fotoDesayunoInvernalCaja:hover {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Invernal/Invernal2.jpg);
+    background-image: url(../src/Desayunos/Cajas/Invernal/invernal2.jpg);
 }
 
 
@@ -122,7 +122,7 @@
     /* invernal */
     .fotoDesayunoInvernalCaja:active {
         transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Cajas/Invernal/Invernal2.jpg);
+        background-image: url(../src/Desayunos/Cajas/Invernal/invernal2.jpg);
     }
     /* Clasico */
     .fotoDesayunoClasicoCaja:active {
