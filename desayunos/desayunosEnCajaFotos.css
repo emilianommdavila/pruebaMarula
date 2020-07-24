@@ -31,7 +31,7 @@
 
 .fotoDesayunoPremiumCaja {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Premium/Premium1.jpg);
+    background-image: url(../src/Desayunos/Cajas/Premium/premium1.jpg);
 }
 
 .fotoDesayunoPremiumCaja:hover {
@@ -70,12 +70,12 @@
 
 .fotoDesayunoBocaCaja {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Boca/Boca1.jpg);
+    background-image: url(../src/Desayunos/Cajas/Boca/boca1.jpg);
 }
 
 .fotoDesayunoBocaCaja:hover {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Boca/Boca2.jpg);
+    background-image: url(../src/Desayunos/Cajas/Boca/boca2.jpg);
 }
 
 
@@ -83,7 +83,7 @@
 
 .fotoDesayunoRiverCaja {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/River/River1.jpg);
+    background-image: url(../src/Desayunos/Cajas/River/river1.jpg);
 }
 
 .fotoDesayunoRiverCaja:hover {
@@ -132,12 +132,12 @@
     /* Premium */
     .fotoDesayunoPremiumCaja:active {
         transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Cajas/Premium/Premium1.jpg);
+        background-image: url(../src/Desayunos/Cajas/Premium/premium1.jpg);
     }
     /* Matero */
     .fotoDesayunoMateroCaja:active {
         transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Cajas/Matero/Matero2.jpg);
+        background-image: url(../src/Desayunos/Cajas/Matero/matero2.jpg);
     }
     /* Americano */
     .fotoDesayunoAmericanoCaja:active {
@@ -147,7 +147,7 @@
     /* Boca */
     .fotoDesayunoBocaCaja:active {
         transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Cajas/Boca/Boca2.jpg);
+        background-image: url(../src/Desayunos/Cajas/Boca/boca2.jpg);
     }
     /* River */
     .fotoDesayunoRiverCaja:active {
