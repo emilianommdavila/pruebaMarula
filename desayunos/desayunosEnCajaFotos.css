@@ -118,6 +118,9 @@
 }
 
 @media (max-width: 500px) {
+    footer {
+        margin: 0px;
+    }
     /* efectos responsive, el hover no anda en telefonos */
     /* invernal */
     .fotoDesayunoInvernalCaja:active {
