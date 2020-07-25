@@ -165,6 +165,13 @@
       color: white;
   }
   
+  .pedidoWpp {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-align: center;
+  }
+  
   @media (max-width: 500px) {
       .cabecera {
           display: flex;
