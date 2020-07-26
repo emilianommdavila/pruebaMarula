@@ -127,12 +127,12 @@
 
 .fotoDesayunoAmericano {
     transition: linear 0.1s;
-    background-image: url();
+    background-image: url(../src/Desayunos/Bandejas/Americano/americano1.jpeg);
 }
 
 .fotoDesayunoAmericano:hover {
     transition: linear 0.1s;
-    background-image: url();
+    background-image: url(../src/Desayunos/Bandejas/Americano/americano2.jpeg);
 }
 
 
@@ -166,12 +166,12 @@
 
 .fotoDesayuno15 {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/15/15_1.jpg);
+    background-image: url(../src/Desayunos/Bandejas/15/15_1.jpeg);
 }
 
 .fotoDesayuno15:hover {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/15/15_2.jpg);
+    background-image: url(../src/Desayunos/Bandejas/15/15_2.jpeg);
 }
 
 

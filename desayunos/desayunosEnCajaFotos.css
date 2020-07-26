@@ -57,12 +57,12 @@
 
 .fotoDesayunoAmericanoCaja {
     transition: linear 0.1s;
-    background-image: url();
+    background-image: url(../src/Desayunos/Cajas/Americano/Americano1.jpeg);
 }
 
 .fotoDesayunoAmericanoCaja:hover {
     transition: linear 0.1s;
-    background-image: url();
+    background-image: url(../src/Desayunos/Cajas/Americano/Americano2.jpeg);
 }
 
 
