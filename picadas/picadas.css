@@ -28,6 +28,7 @@
         width: 90%;
         margin: 0em;
         margin-top: 1em;
+        height: 800px;
     }
     .picadaClasica:active {
         transition: linear 0.1s;
