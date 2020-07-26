@@ -6,7 +6,7 @@
             background-image: url(../src/fondos/bandejas.jpeg);
         }
         
-        @media (max-width: 500px) {
+        @media (max-width: 700px) {
             .contenedor {
                 height: 900px;
             }

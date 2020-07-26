@@ -23,7 +23,7 @@
     width: 400px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .tarjeta {
         width: 90%;
         margin: 0em;

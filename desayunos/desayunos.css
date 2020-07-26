@@ -1,5 +1,6 @@
 .bodyDesayunos {
-    background-image: url(../src/fondos/fondo.jpg);
+    /* background-image: url(../src/fondos/fondo.jpg); */
+    background-color: #EACFE3;
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
@@ -27,7 +28,7 @@
 .descripcion {
     margin-right: 15%;
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 60px;
     align-self: center;
@@ -56,9 +57,10 @@
     left: 0;
     right: 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+    text-decoration-line: underline;
 }
 
 .precio {
@@ -185,7 +187,7 @@
     background-image: url(../src/Desayunos/Bandejas/Infantil/infantil2.jpg);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     #tituloDesayunos {
         margin-top: 120px;
     }

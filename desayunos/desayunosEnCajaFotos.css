@@ -117,7 +117,7 @@
     background-image: url(../src/Desayunos/Cajas/Infantil/infantil2.jpg);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     footer {
         margin: 0px;
     }
