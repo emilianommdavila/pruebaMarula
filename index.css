@@ -19,6 +19,7 @@
       background-color: rgb(256, 256, 256, 0.7);
       margin-top: 0em;
       height: 90px;
+      z-index: 1;
   }
   
   .logo {
@@ -195,6 +196,13 @@
           position: fixed;
           margin-right: 0em;
           height: 90px;
+      }
+      .back {
+          height: 40px;
+          width: 40px;
+          position: absolute;
+          left: 15px;
+          top: 27px;
       }
       .contacto {
           display: flex;

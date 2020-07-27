@@ -13,6 +13,11 @@
     /* transition: linear 0.1s; */
 }
 
+.back {
+    height: 0px;
+    width: 0px;
+}
+
 .seccion1 {
     width: 70%;
     display: flex;
@@ -65,6 +70,15 @@
 
 .precio {
     font-weight: bold;
+}
+
+.changePicture {
+    transform: rotate(-90deg);
+    height: 50px;
+    background-color: rgb(256, 256, 256, 0.3);
+    border-radius: 50%;
+    position: relative;
+    z-index: 0;
 }
 
 
@@ -187,12 +201,26 @@
     background-image: url(../src/Desayunos/Bandejas/Infantil/infantil2.jpg);
 }
 
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+    color: black;
+}
+
 @media (max-width: 700px) {
     #tituloDesayunos {
         margin-top: 120px;
     }
     #nombreDesayuno {
         position: static;
+    }
+    .back {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 15px;
+        top: 27px;
     }
     .seccion1 {
         flex-direction: column;
