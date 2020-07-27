@@ -70,7 +70,7 @@
 
 .fotoDesayunoBocaCaja {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Boca/boca1.jpg);
+    background-image: url(../src/Desayunos/Cajas/Boca/Boca1.jpg);
 }
 
 .fotoDesayunoBocaCaja:hover {
