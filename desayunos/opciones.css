@@ -11,6 +11,15 @@
             width: 0px;
         }
         
+        .changePicture {
+            transform: rotate(-90deg);
+            height: 50px;
+            background-color: rgb(256, 256, 256, 0.3);
+            border-radius: 50%;
+            position: relative;
+            margin-top: 250px;
+        }
+        
         @media (max-width: 700px) {
             .contenedor {
                 height: 900px;
