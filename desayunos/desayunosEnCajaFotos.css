@@ -110,6 +110,19 @@
 }
 
 
+/* celiaco */
+
+.fotoDesayuno15 {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/15/15_1.jpeg);
+}
+
+.fotoDesayuno15:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/15/15_2.jpeg);
+}
+
+
 /* Infantil */
 
 .fotoDesayunoInfantilCaja {
