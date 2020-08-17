@@ -12,7 +12,7 @@
         }
         
         .changePicture {
-            transform: rotate(-90deg);
+            transform: rotate(-180deg);
             height: 50px;
             background-color: rgb(256, 256, 256, 0.3);
             border-radius: 50%;
