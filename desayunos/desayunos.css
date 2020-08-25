@@ -172,7 +172,7 @@
 }
 
 
-/* 15 */
+/* celiaco */
 
 .fotoCeliaco {
     transition: linear 0.1s;
@@ -185,7 +185,7 @@
 }
 
 
-/* celiaco */
+/* 15 */
 
 .fotoDesayuno15 {
     transition: linear 0.1s;
@@ -195,6 +195,32 @@
 .fotoDesayuno15:hover {
     transition: linear 0.1s;
     background-image: url(../src/Desayunos/Bandejas/15/15_2.jpeg);
+}
+
+
+/* diabetico */
+
+.fotoDesayunoDiab {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/diabetico/diab1.jpeg);
+}
+
+.fotoDesayunoDiab:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/diabetico/diab2.jpeg);
+}
+
+
+/* Saludable */
+
+.fotoDesayunoSalud {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Saludable/salud1.jpeg);
+}
+
+.fotoDesayunoSalud:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Saludable/salud2.jpeg);
 }
 
 
@@ -295,5 +321,13 @@
     .fotoDesayunoInfantil:active {
         transition: linear 0.1s;
         background-image: url(../src/Desayunos/Bandejas/Infantil/infantil2.jpg);
+    }
+    .fotoDesayunoDiab:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/diabetico/diab2.jpeg);
+    }
+    .fotoDesayunoSalud:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/Saludable/salud2.jpeg);
     }
 }
