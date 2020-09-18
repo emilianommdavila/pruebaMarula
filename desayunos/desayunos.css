@@ -290,7 +290,7 @@
     /* Premium */
     .fotoDesayunoPremium:active {
         transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpg);
+        background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpeg);
     }
     /* Matero */
     .fotoDesayunoMatero:active {

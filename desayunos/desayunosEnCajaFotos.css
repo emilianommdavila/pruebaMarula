@@ -153,7 +153,7 @@
     /* Premium */
     .fotoDesayunoPremiumCaja:active {
         transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Cajas/Premium/premium2.jpg);
+        background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpeg);
     }
     /* Matero */
     .fotoDesayunoMateroCaja:active {
