@@ -36,12 +36,12 @@
 
 .fotoDesayunoPremiumCaja {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Premium/premium1.jpg);
+    background-image: url(../src/Desayunos/Bandejas/Premium/Premium.jpeg);
 }
 
 .fotoDesayunoPremiumCaja:hover {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Cajas/Premium/premium2.jpg);
+    background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpeg);
 }
 
 
