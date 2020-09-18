@@ -111,12 +111,12 @@
 
 .fotoDesayunoPremium {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Premium/Premium.jpg);
+    background-image: url(../src/Desayunos/Bandejas/Premium/Premium.jpeg);
 }
 
 .fotoDesayunoPremium:hover {
     transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpg);
+    background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpeg);
 }
 
 
