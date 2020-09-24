@@ -135,6 +135,19 @@
     background-image: url(../src/Desayunos/Cajas/Infantil/infantil2.jpg);
 }
 
+
+/* Madre */
+
+.fotoDesayunoMadre {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Madre2020/madre1.jpeg);
+}
+
+.fotoDesayunoMadre:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Madre2020/madre2.jpeg);
+}
+
 @media (max-width: 700px) {
     footer {
         margin: 0px;
@@ -184,6 +197,10 @@
     .fotoDesayunoInfantilCaja:active {
         transition: linear 0.1s;
         background-image: url(../src/Desayunos/Cajas/Infantil/infantil2.jpg);
+    }
+    .fotoDesayunoMadre:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/Madre2020/madre2.jpeg);
     }
     .back {
         height: 40px;

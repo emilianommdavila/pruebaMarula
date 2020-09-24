@@ -237,6 +237,19 @@
 }
 
 
+/* Madre */
+
+.fotoDesayunoMadre {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Madre2020/madre1.jpeg);
+}
+
+.fotoDesayunoMadre:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Madre2020/madre2.jpeg);
+}
+
+
 /* When moving the mouse over the close button */
 
 .closebtn:hover {
@@ -329,5 +342,9 @@
     .fotoDesayunoSalud:active {
         transition: linear 0.1s;
         background-image: url(../src/Desayunos/Bandejas/Saludable/salud2.jpeg);
+    }
+    .fotoDesayunoMadre:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/Madre2020/madre2.jpeg);
     }
 }
