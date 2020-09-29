@@ -249,6 +249,16 @@
     background-image: url(../src/Desayunos/Bandejas/Madre2020/madre2.jpeg);
 }
 
+.fotoDesayunoMadreMatero {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/Matero/Matero2.jpg);
+}
+
+.fotoDesayunoMadre:hover {
+    transition: linear 0.1s;
+    background-image: url(../src/Desayunos/Bandejas/MateroMadre/matero2.jpeg)
+}
+
 
 /* When moving the mouse over the close button */
 
@@ -346,5 +356,9 @@
     .fotoDesayunoMadre:active {
         transition: linear 0.1s;
         background-image: url(../src/Desayunos/Bandejas/Madre2020/madre2.jpeg);
+    }
+    .fotoDesayunoMadre:active {
+        transition: linear 0.1s;
+        background-image: url(../src/Desayunos/Bandejas/MateroMadre/matero2.jpeg)
     }
 }
