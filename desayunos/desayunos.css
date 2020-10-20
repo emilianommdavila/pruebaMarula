@@ -1,364 +1,178 @@
-.bodyDesayunos {
-    /* background-image: url(../src/fondos/fondo.jpg); */
-    background-color: #EACFE3;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0px;
+/* body {
+    font-family: roboto-liviano;
+} */
+
+@font-face {
+    font-family: roboto;
+    src: url("../src/fuente/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: roboto-liviano;
+    src: url("../src/fuente/Roboto-Light.ttf");
+}
+
+.carrusel {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botonesCarrusel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.botonesCarrusel button {
+    width: 50%;
+    background-color: #f4e5b3;
+    border: 0px;
+    height: 44px;
+    border-radius: 0px;
+    outline: none;
+    font-size: 18px;
+    /* sombras */
+    -webkit-box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
+}
+
+.adelante {
+    border-left: 1px rgb(114, 112, 112) solid;
+}
+
+.atras {
+    border-right: 1px rgb(114, 112, 112) solid;
+}
+
+.foto {
     width: 100%;
 }
 
-.margen {
-    margin-left: 60px;
-    width: 400px;
-    /* transition: linear 0.1s; */
-}
-
-.back {
-    height: 0px;
-    width: 0px;
-}
-
-.seccion1 {
-    width: 70%;
+.contenedorDesayuno {
+    margin-top: 90px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(256, 256, 256, 0.7);
-    /* align-items: center; */
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.contenedorDescripcion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 0px;
+    height: auto;
+}
+
+.nombreDesayuno {
+    text-align: center;
 }
 
 .descripcion {
-    margin-right: 15%;
     text-align: center;
-    /* font-style: italic; */
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 60px;
-    align-self: center;
+    font-size: 23px;
+    font-style: regular;
+    width: 90%;
+    margin-top: 0px;
+    padding-top: 10px;
+    /* margin-bottom: 50px; */
+    /* sombras */
+    -webkit-box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
 }
 
-.contenedorTarjetas {
+.pedidoWhatsapp {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-}
-
-.seccion1 {
-    margin: 50px 0px 50px 0px;
-}
-
-#tituloDesayunos {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: white;
-}
-
-#nombreDesayuno {
-    position: absolute;
+    justify-content: center;
+    /* margin-top: 20px; */
+    margin-bottom: 50px;
+    background-color: #0dc143;
+    width: 70%;
+    max-width: 230px;
+    height: 70px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    text-decoration-line: underline;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-.precio {
-    font-weight: bold;
+.linkWhatsapp {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
-.changePicture {
-    height: 0px;
-    width: 0px;
+.whatsappBlanco {
+    height: 50px;
 }
 
-
-/* Fotos de desayunos */
-
-
-/* invernal */
-
-.fotoDesayunoInvernal {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Invernal/invernal.jpg);
-}
-
-.fotoDesayunoInvernal:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Invernal/Invernal2.jpg);
-}
-
-
-/* Clasico */
-
-.fotoDesayunoClasico {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/clasico/clasico1.jpg);
-}
-
-.fotoDesayunoClasico:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/clasico/clasico2.jpg);
-}
-
-
-/* Premium */
-
-.fotoDesayunoPremium {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Premium/Premium.jpeg);
-}
-
-.fotoDesayunoPremium:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpeg);
-}
-
-
-/* Matero */
-
-.fotoDesayunoMatero {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Matero/Matero1.jpg);
-}
-
-.fotoDesayunoMatero:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Matero/Matero2.jpg);
-}
-
-
-/* Americano */
-
-.fotoDesayunoAmericano {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Americano/americano1.jpeg);
-}
-
-.fotoDesayunoAmericano:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Americano/americano2.jpeg);
-}
-
-
-/* Boca */
-
-.fotoDesayunoBoca {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Boca/Boca1.jpg);
-}
-
-.fotoDesayunoBoca:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Boca/Boca2.jpg);
-}
-
-
-/* River */
-
-.fotoDesayunoRiver {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/River/River1.jpg);
-}
-
-.fotoDesayunoRiver:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/River/river2.jpg);
-}
-
-
-/* celiaco */
-
-.fotoCeliaco {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Celiaco/celiaco1.jpeg)
-}
-
-.fotoCeliaco:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Celiaco/celiaco2.jpeg);
-}
-
-
-/* 15 */
-
-.fotoDesayuno15 {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/15/15_1.jpeg);
-}
-
-.fotoDesayuno15:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/15/15_2.jpeg);
-}
-
-
-/* diabetico */
-
-.fotoDesayunoDiab {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/diabetico/diab1.jpeg);
-}
-
-.fotoDesayunoDiab:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/diabetico/diab2.jpeg);
-}
-
-
-/* Saludable */
-
-.fotoDesayunoSalud {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Saludable/salud1.jpeg);
-}
-
-.fotoDesayunoSalud:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Saludable/salud2.jpeg);
-}
-
-
-/* Infantil */
-
-.fotoDesayunoInfantil {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Infantil/infantil1.jpg);
-}
-
-.fotoDesayunoInfantil:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Infantil/infantil2.jpg);
-}
-
-
-/* Madre */
-
-.fotoDesayunoMadre {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Madre2020/madre1.jpeg);
-}
-
-.fotoDesayunoMadre:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Madre2020/madre2.jpeg);
-}
-
-.fotoDesayunoMadreMatero {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/Matero/Matero2.jpg);
-}
-
-.fotoDesayunoMadre:hover {
-    transition: linear 0.1s;
-    background-image: url(../src/Desayunos/Bandejas/MateroMadre/matero2.jpeg)
-}
-
-
-/* When moving the mouse over the close button */
-
-.closebtn:hover {
-    color: black;
-}
-
-@media (max-width: 700px) {
-    #tituloDesayunos {
-        margin-top: 120px;
-    }
-    #nombreDesayuno {
-        position: static;
-    }
-    .changePicture {
-        transform: rotate(-180deg);
-        height: 50px;
-        background-color: rgb(256, 256, 256, 0.3);
-        border-radius: 50%;
-        position: relative;
-        z-index: 0;
-    }
-    .back {
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        left: 15px;
-        top: 27px;
-    }
-    .seccion1 {
+@media (min-width: 700px) {
+    .contenedorDesayuno {
+        width: 60%;
+        min-width: 340;
+        height: auto;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
         flex-direction: column;
+        min-width: 700px;
+        -webkit-box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
+        -moz-box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
+        box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.37);
+    }
+    .contenedorDescripcion {
         width: 100%;
-        height: 800px;
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
+        flex-direction: row;
     }
-    .tarjeta {
-        width: 90%;
-        margin: 0em;
-        margin-top: 1em;
+    .carrusel {
+        width: 40%;
+        margin: auto;
     }
-    /* efectos responsive, el hover no anda en telefonos */
-    /* invernal */
-    .fotoDesayunoInvernal:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/Invernal/Invernal2.jpg);
+    .descripcion {
+        text-align: center;
+        font-size: 23px;
+        font-style: regular;
+        width: 40%;
+        margin: auto;
     }
-    /* Clasico */
-    .fotoDesayunoClasico:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/clasico/clasico2.jpg);
+    .nombreDesayuno {
+        margin-top: 0px;
     }
-    /* Premium */
-    .fotoDesayunoPremium:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/Premium/Premium1.jpeg);
-    }
-    /* Matero */
-    .fotoDesayunoMatero:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/Matero/Matero2.jpg);
-    }
-    /* Americano */
-    .fotoDesayunoAmericano:active {
-        transition: linear 0.1s;
-        background-image: url();
-    }
-    /* Boca */
-    .fotoDesayunoBoca:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/Boca/Boca2.jpg);
-    }
-    /* River */
-    .fotoDesayunoRiver:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/River/river2.jpg);
-    }
-    /* 15 */
-    .fotoDesayuno15:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/15/15_2.jpg);
-    }
-    /* Infantil */
-    .fotoDesayunoInfantil:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/Infantil/infantil2.jpg);
-    }
-    .fotoDesayunoDiab:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/diabetico/diab2.jpeg);
-    }
-    .fotoDesayunoSalud:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/Saludable/salud2.jpeg);
-    }
-    .fotoDesayunoMadre:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/Madre2020/madre2.jpeg);
-    }
-    .fotoDesayunoMadre:active {
-        transition: linear 0.1s;
-        background-image: url(../src/Desayunos/Bandejas/MateroMadre/matero2.jpeg)
+    .pedidoWhatsapp {
+        /* margin-bottom: 20px; */
+        margin-top: 50px;
     }
 }
+
+
+/* 
+@media (min-width: 1050px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: 350px 350px 350px 350px;
+    }
+} */
